@@ -1,0 +1,62 @@
+
+/* =========================================================
+   INPUT FORM PSC119
+========================================================= */
+
+.form-control,
+.form-control-alternative,
+.custom-file-label,
+textarea,
+select {
+    background-color: #f8f9fe !important;
+    color: #172b4d !important;
+    border: 1px solid #cad1d7 !important;
+}
+
+/* Placeholder */
+.form-control::placeholder,
+textarea::placeholder {
+    color: #8898aa !important;
+    opacity: 1;
+}
+
+/* Focus */
+.form-control:focus,
+.form-control-alternative:focus,
+textarea:focus,
+select:focus {
+    background-color: #ffffff !important;
+    color: #172b4d !important;
+    border-color: #5e72e4 !important;
+    box-shadow: 0 0 0 0.2rem rgba(94,114,228,.25) !important;
+}
+
+/* Select option */
+select option {
+    color: #172b4d;
+    background: #ffffff;
+}
+
+/* Custom file */
+.custom-file-label::after {
+    background-color: #5e72e4;
+    color: white;
+    border-left: 1px solid #5e72e4;
+}
+
+/* Textarea */
+textarea {
+    resize: vertical;
+}
+
+/* Blok pasien */
+.blok-pasien {
+    background: #f9fbfd;
+    border: 1px solid #e9ecef !important;
+}
+
+/* Label */
+.form-control-label {
+    color: #344767 !important;
+    font-weight: 600;
+}
